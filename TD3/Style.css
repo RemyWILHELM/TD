@@ -1,0 +1,9 @@
+form{
+    display: inline-block;
+}
+.Cyan{
+    background-color: cyan;
+}
+.Bleu{
+    background-color: rgb(93, 93, 230);
+}
