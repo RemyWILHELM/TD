@@ -25,7 +25,7 @@ function Affiche(){
     if(getMaxEven45Alt3(...array) != -Infinity){
         document.getElementById("PGPair").innerHTML=getMaxEven45Alt3(...array);
     }else{ document.getElementById("PGPair").innerHTML="pas de pairs dans la table";}
-    document.getElementById("posiTab").innerHTML=array.indexOf(getMaxEven45Alt3(...array));
+    document.getElementById("posiTab").innerHTML=array.indexOf(parseInt(document.getElementById("rech").value));
 }
 document.getElementById("Affiche")
         .addEventListener("click", Affiche);
