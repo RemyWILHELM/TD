@@ -75,10 +75,12 @@ function desactiveEcouteurs () {
 }
 
 function aGagne (symbole, y, x) {
+  let Morp = new Morpion(taille, symbole);
   let MorpSimp = new MorpionSimple(x, y, symbole)
   if (modeJeu === 'simple') {
     return MorpSimp.aGagne3ParmiN(symbole, y, x);
   }
+  Morp.aGagne;
 }
 
 class MorpionSimple extends Morpion{

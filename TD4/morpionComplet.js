@@ -34,7 +34,7 @@ export class Morpion {
     return morpion;
   }
 
-  aGagne(){
+  get aGagne(){
     let nbSymboles;
 
     // gagné en ligne ?
