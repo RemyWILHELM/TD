@@ -1,0 +1,18 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Données météo</title>
+</head>
+<body>
+    <p>Température : <script type="text/javascript">document.write(localStorage.getItem("temp"));</script></p></p>
+    <p>Ressentie : <script type="text/javascript">document.write(localStorage.getItem("feels_like"));</script></p>
+    <p>Minimal : <script type="text/javascript">document.write(localStorage.getItem("min"));</script></p>
+    <p>Maximal : <script type="text/javascript">document.write(localStorage.getItem("max"));</script></p>
+    <p>Temps : <script type="text/javascript">document.write(localStorage.getItem("weather"));</script></p>
+    <p>Pourcentage d'humidité : <script type="text/javascript">document.write(localStorage.getItem("humidity"));</script></p>
+    <button onclick="window.location.href = 'index.html';">Retour</button>
+</body>
+</html>
